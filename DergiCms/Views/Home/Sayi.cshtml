@@ -1,0 +1,29 @@
+﻿﻿@{
+}
+
+@model List<SayiViewModel>
+
+<div class="card mt-3">
+    <div class="card-header">
+        Sayılar
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>No</th>
+                <th>Yayın Tarihi</th>
+
+            </tr>
+            @foreach (var sayi in Model)
+            {
+                <tr>
+                    <td>@sayi.No</td>
+                    <td>@sayi.YayinTarihi.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a href="/Home/Makaleler/@sayi.Id" class=" btn btn-success">makaleler</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

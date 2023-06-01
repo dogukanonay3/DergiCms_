@@ -1,0 +1,45 @@
+﻿
+@{
+}
+@model MakaleViewModel
+
+<h3>Makale ekle</h3>
+
+<form class="mt-3" action="/Admin/Makale/Ekle" method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label">Başlık</label>
+        <input type="text" class="form-control" asp-for="Baslik">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Özet</label>
+        <textarea rows="3" class="form-control" asp-for="Ozet"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">İçerik</label>
+        <textarea rows="3" class="form-control" asp-for="Icerigi"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Dergi</label>
+        <select class="form-control" id="DergiId" onchange="OnDergiDegisti()">
+            <option value="">Seçiniz</option>
+            @foreach (DergiViewModel item in ViewBag.Dergiler)
+            {
+                <option value="@item.Id">@item.Adi</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Sayı</label>
+        <select asp-for="SayiId" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}

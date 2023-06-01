@@ -1,0 +1,42 @@
+﻿@model List<DergiViewModel>
+
+
+<div class="container mb-4">
+    <div class="card mt-3 mb-4">
+        <div class="card-header">
+            Dergi Listesi
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <th>Adı</th>
+                    <th>Kategori</th>
+                    <th>İşlemler</th>
+                </tr>
+                @foreach (var dergi in Model)
+                {
+                    <tr>
+                        <td>@dergi.Adi</td>
+                        <td>@dergi.KategoriAdi</td>
+                        <td>
+                            <a href="/Admin/Sayi/Index/@dergi.Id" class="btn btn-outline-secondary">sayılar</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/Home/Guncelle/@dergi.Id" class="btn btn-outline-success">Güncelle</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/Home/DergiSil/@dergi.Id" class="btn btn-outline-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="card-footer">
+            <div class="text-end">
+                <a href="/Admin/Home/Ekle" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

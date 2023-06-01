@@ -1,0 +1,36 @@
+﻿@model List<SayiViewModel>
+
+
+
+<div class="card mt-3">
+    <div class="card-header">
+        Sayılar
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>Dergi Adı</th>
+                <th>No</th>
+                <th>Yayın Tarihi</th>
+                <th>İşlemler</th>
+            </tr>
+            @foreach (var sayi in Model)
+            {
+                <tr>
+                    <td>@sayi.DergiAdi</td>
+                    <td>@sayi.No</td>
+                    <td>@sayi.YayinTarihi.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a href="/Admin/Makale/Index/@sayi.Id" class="btn btn-outline-secondary" >Makaleler</a>
+                        <a href="/Admin/Sayi/Guncelle/@sayi.Id" class="btn btn-outline-success" >Güncelle</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="card-footer">
+        <div class="text-end">
+            <a href="/Admin/Sayi/Ekle" class="btn btn-primary">Ekle</a>
+        </div>
+    </div>
+</div>

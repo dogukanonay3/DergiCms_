@@ -1,0 +1,31 @@
+﻿@{
+}
+@model List<MakaleViewModel>
+
+
+
+<div class="card mt-3">
+    <div class="card-header">
+        Makale Listesi
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>Başlık</th>
+                <th>Özet</th>
+            </tr>
+            @foreach (var makale in Model)
+            {
+                <tr>
+                    <td>@makale.Baslik</td>
+                    <td>@makale.Ozet</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="card-footer">
+        <div class="text-end">
+            <a href="/Admin/Makale/Ekle" class="btn btn-primary">Ekle</a>
+        </div>
+    </div>
+</div>

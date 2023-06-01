@@ -1,0 +1,35 @@
+﻿@model DergiViewModel
+
+<h3>Dergi Guncelle</h3>
+<div class="container mb-xxl-4 mb-5">
+    <form class="mt-3" action="/Admin/Home/Guncelle" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label class="form-label">Adı</label>
+            <input type="text" class="form-control" asp-for="Adi">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Açıklama</label>
+            <textarea rows="10" class="form-control" asp-for="Aciklama"></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Kategori</label>
+            <select asp-for="KategoriId" class="form-control">
+                <option value="">Seçiniz</option>
+                @foreach (KategoriViewModel item in ViewBag.Kategoriler)
+                {
+                    <option value="@item.Id">@item.Adi</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
