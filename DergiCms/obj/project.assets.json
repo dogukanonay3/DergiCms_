@@ -2477,11 +2477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiCms\\DergiCms.csproj",
+      "projectUniqueName": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiCms\\DergiCms.csproj",
       "projectName": "DergiCms",
-      "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiCms\\DergiCms.csproj",
+      "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiCms\\DergiCms.csproj",
       "packagesPath": "C:\\Users\\Doğukan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiCms\\obj\\",
+      "outputPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiCms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Doğukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2498,8 +2498,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj": {
-              "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj"
+            "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj": {
+              "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj"
             }
           }
         }

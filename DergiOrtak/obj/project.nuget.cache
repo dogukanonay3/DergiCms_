@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6nVI0trS0DluEeny2rF0hu10PAep4OiSM3OM7MW8p3EYSDDB/Xwuh0YK9dXF0WtbpaZ3jBW0WW25uaxScn8YpA==",
+  "dgSpecHash": "MyfT1hJ6oTCqdmlNdhKgvQud2UVeqXP2W9fD5zzl+QmWcM16SCh3fihNWmaJdLtY/0lmqouWjEolmdDosris5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj",
+  "projectFilePath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Doğukan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Doğukan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.16\\microsoft.aspnetcore.cryptography.internal.6.0.16.nupkg.sha512",

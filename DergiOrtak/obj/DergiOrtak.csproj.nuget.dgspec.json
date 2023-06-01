@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj": {}
+    "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj": {
+    "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj",
+        "projectUniqueName": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj",
         "projectName": "DergiOrtak",
-        "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\DergiOrtak.csproj",
+        "projectPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\DergiOrtak.csproj",
         "packagesPath": "C:\\Users\\Doğukan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms\\DergiOrtak\\obj\\",
+        "outputPath": "C:\\Users\\Doğukan\\Desktop\\PROJECTS\\DergiCms_\\DergiOrtak\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Doğukan\\AppData\\Roaming\\NuGet\\NuGet.Config",

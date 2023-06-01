@@ -12,3 +12,17 @@ C:\Users\Doğukan\Desktop\PROJECTS\DergiCms\DergiOrtak\obj\Debug\net6.0\DergiOrt
 C:\Users\Doğukan\Desktop\PROJECTS\DergiCms\DergiOrtak\obj\Debug\net6.0\ref\DergiOrtak.dll
 C:\Users\Doğukan\Desktop\PROJECTS\DergiCms\DergiOrtak\bin\Debug\net6.0\DergiOrtak.runtimeconfig.json
 C:\Users\Doğukan\Desktop\PROJECTS\DergiCms\DergiOrtak\obj\Debug\net6.0\DergiOrtak.genruntimeconfig.cache
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\bin\Debug\net6.0\DergiOrtak.deps.json
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\bin\Debug\net6.0\DergiOrtak.runtimeconfig.json
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\bin\Debug\net6.0\DergiOrtak.dll
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\bin\Debug\net6.0\DergiOrtak.pdb
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.csproj.AssemblyReference.cache
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.AssemblyInfoInputs.cache
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.AssemblyInfo.cs
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.csproj.CoreCompileInputs.cache
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.dll
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\refint\DergiOrtak.dll
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.pdb
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\DergiOrtak.genruntimeconfig.cache
+C:\Users\Doğukan\Desktop\PROJECTS\DergiCms_\DergiOrtak\obj\Debug\net6.0\ref\DergiOrtak.dll
